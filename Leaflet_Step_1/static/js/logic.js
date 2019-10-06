@@ -112,7 +112,7 @@ function map_set() {
               color: color,
               fillColor: fill_color,
               radius: Quake_dict[i].magnitude * 14000
-            }).bindPopup("<h3>" + Quake_dict[i].Place + "</h3> <h4> Time: " + Quake_dict[i].Time + "</h4> <hr> <h5>Magnitude: " + Quake_dict[i].magnitude + "</h5>").addTo(Quake_map);
+            }).bindPopup("<h3>" + Quake_dict[i].Place + "</h3> <hr> <h4>Magnitude: " + Quake_dict[i].magnitude + "</h4>").addTo(Quake_map);
           }
         }
 
